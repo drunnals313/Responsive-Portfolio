@@ -1,0 +1,242 @@
+/* some parameters for the picture of dave so that the text doesn't crowd in there so tight */
+#meimage {
+  float: left;
+  padding-right: 20px;
+  width: 300px;
+  height: auto;
+}
+
+/* main body for each of the nav pages: I cannot get the background image to appear without putting the file within the css referenced folder */
+body {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 18px;
+  color: #777777;
+  line-height: 34px;
+  background-image: url(extra_clean_paper.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+
+/* overall elements that go everywhere */
+
+h1,
+h3,
+p {
+  margin-bottom: 20px;
+}
+
+/* The :nth-child(n) selector matches every element that is the nth child, regardless of type, of its parent. */
+p:last-child {
+  margin-bottom: 0;
+}
+
+/* header elements that go everywhere */
+h1,
+h2,
+h3 {
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-weight: 700;
+  color: #4aaaa5;
+}
+
+/* header 1 elements that go everywhere */
+h1 {
+  padding-bottom: 20px;
+  font-size: 33px;
+  line-height: 66px;
+  border-bottom: 3px solid #dddddd;
+}
+
+/* header 3 elements that go to all */
+
+h3 {
+  font-size: 22px;
+  padding-bottom: 20px;
+  line-height: 22px;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #eeeeee;
+}
+
+/* this element guy is the top header section outside of the container nav stuff above */
+
+#secondheader {
+  position: fixed;
+  z-index: 99;
+  color: #ffffff;
+  margin: 0 0 30px;
+  overflow: auto;
+  background: #ffffff;
+  border-bottom: 2px solid #cccccc;
+  width: 100%;
+}
+
+/* this guy is the id associated with my large name part that links back to the index page */
+#me {
+  float: left;
+  width: 275px;
+  height: 94px;
+  text-align: center;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 90px;
+  color: #ffffff;
+  text-decoration: none;
+  background: #4aaaa5;
+}
+
+
+
+/* footer and all the parameters */
+footer {
+  padding: 21px 12px;
+  clear: both;
+  font-size: 12px;
+  height: 50px;
+  text-align: center;
+  background: #666666;
+  color: #cccccc;
+  border-top: 8px solid #4aaaa5;
+  vertical-align: middle;
+}
+
+
+
+/* parent container section */
+#parentcontainer {
+  padding-top: 130px;
+  min-height: calc(100vh - 70px);
+}
+
+#childcontainer {
+  float: left;
+  width: 100%;
+  max-width: 700px;
+  padding: 30px;
+  margin: 0 0 40px;
+  background: #ffffff;
+  border: 1px solid #dddddd;
+}
+
+/* 5 picture portfolio slice */
+.auth-image {
+  float: left;
+  width: 200px;
+  height: auto;
+  margin-top: 10px;
+  margin-right: 25px;
+}
+
+#masks {
+  overflow: auto;
+  position: relative;
+  float: left;
+  width: 300px;
+  margin: 25px 0 25px;
+}
+
+/* The :nth-child(n) selector matches every element that is the nth child, regardless of type, of its parent. */
+#masks:nth-child(2n) {
+  margin-right: 50px;
+}
+
+
+#masks img {
+  width: 100%;
+  height: auto;
+  opacity: 0.9;
+  border: 0 none;
+}
+
+
+#masks h3 {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  line-height: 30px;
+  padding: 15px;
+  margin-bottom: 0;
+  border-bottom: 0;
+  font-weight: 300;
+  color: #ffffff;
+  text-align: center;
+  background: #4aaaa5;
+}
+
+/*W3 School ref: Since the result of using the box-sizing: border-box; is so much better, many developers want all elements on their pages to work this way.
+
+The code below ensures that all elements are sized in this more intuitive way. Many browsers already use box-sizing: border-box; for many form elements (but not all - which is why inputs and text areas look different at width: 100%;).
+
+Applying this to all elements is safe and wise:*/
+* {
+  box-sizing: border-box;
+}
+
+
+/* contact form slice */
+
+/* list id */
+#con li {
+  margin-bottom: 21px;
+}
+
+/* list id */
+#con ul {
+  margin-bottom: 21px;
+}
+
+
+label,
+input[type=text],
+input[type=email],
+textarea {
+  display: block;
+  width: 100%;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+  height: 40px;
+  padding: 0 9px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+}
+
+textarea {
+  height: 300px;
+}
+
+input[type=submit] {
+  padding: 9px 27px;
+  font-size: 14px;
+  background: #4aaaa5;
+  color: #fff;
+  cursor: pointer;
+  border: 0 none;
+}
+
+
+/* connect with me title */
+#cwm {
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-weight: 700;
+  color: #4aaaa5;
+  font-size: 25px;
+  line-height: 38px;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+}
+
+#about {
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-weight: 700;
+  color: #4aaaa5;
+  font-size: 32px;
+  line-height: 40px;
+}

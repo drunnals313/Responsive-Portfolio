@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Index page Dave</title>
+    <!-- We need to bring in the bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <!-- my overriding css -->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <!-- social media css-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+
+<body>
+
+  <header id="secondheader">
+    <div class="container">
+      <a class="navbar-brand" class= "col-xs-12 col-sm-12 col-md-8 col-lg-8" id="me" href="index.html">Dave Runnals</a>
+          <ul class="nav nav-pills nav-justified">
+              <li><a class="col-xs-4 col-sm-4 col-md-4 col-lg-4" href="index.html">About</a></li>
+              <li><a class="col-xs-4 col-sm-4 col-md-4 col-lg-4" href="portfolio.html">Portfolio</a></li>
+              <li><a class="col-xs-4 col-sm-4 col-md-4 col-lg-4" href="contact.html">Contact</a></li> 
+          </ul>
+    </div>
+  </header>
+
+  <div class="row">
+  <div id="parentcontainer" class="container">
+    <section class= "col-xs-12 col-sm-12 col-md-8 col-lg-8" id="childcontainer">
+      <h1>Contact</h1>
+
+      <form id="con">
+        <ul>
+          <li>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Jane Doe" required="required">
+          </li>
+          <li>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+          </li>
+          <li>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required="required"></textarea>
+          </li>
+        </ul>
+        <input type="submit">
+      </form>
+
+    </section>
+
+  </div>
+
+  <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h1 class="panel-title" id="cwm">Connect with Me</h1>
+        </div>
+        <div class="panel-body">
+          <div class="row">
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                <a href="https://github.com/drunnals313" class="fa fa-github"></a>
+            </div>
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                <a href="www.linkedin.com/in/david-runnals-56334133" class="fa fa-linkedin"></a>
+              </a>
+            </div>
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                <a href="https://stackoverflow.com/users/9392288/drunnals" class="fa fa-stack-overflow"></a>
+              </a>
+            </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  <footer>
+    <div class="container">
+      Copyright &copy; 
+    </div>
+  </footer>
+</body>
+
+</html>
