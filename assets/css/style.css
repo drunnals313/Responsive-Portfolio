@@ -32,6 +32,7 @@ p:last-child {
 
 /* header elements that go everywhere */
 h1,
+h2,
 h3 {
   font-family: Georgia, Times, "Times New Roman", serif;
   font-weight: 700;
@@ -76,6 +77,8 @@ h3 {
   border-bottom: 2px solid #cccccc;
   width: 100%;
 }
+
+
 
 /* this guy is the id associated with my large name part that links back tot he index page */
 #me {
@@ -244,3 +247,151 @@ input[type=submit] {
   border: 0 none;
 }
 
+.sidebar {
+  float: right;
+  width: 100%;
+  max-width: 270px;
+  padding: 30px;
+  margin-bottom: 20px;
+  background: #fff;
+  border: 1px solid #ddd;
+}
+
+h3,
+.sidebar h2 {
+  padding-bottom: 20px;
+  margin-bottom: 15px;
+  line-height: 22px;
+  border-bottom: 2px solid #eee;
+}
+
+.social {
+  width: 62px;
+  height: 62px;
+  margin-top: 8px;
+  margin-right: 5px;
+}
+
+.social:last-child {
+  margin-right: 0;
+}
+
+/* media queries part for triple navigation bar */
+@media screen and (min-width: 640px) {
+
+}
+
+@media screen and (min-width: 768px) {
+
+}
+
+@media screen and (min-width: 980px) {
+
+}
+
+/* media queries part for banner name */
+@media screen and (min-width: 640px) {
+
+}
+
+@media screen and (min-width: 768px) {
+
+}
+
+@media screen and (min-width: 980px) {
+
+}
+
+
+/* media queries part for index picture of me */
+@media screen and (min-width: 640px) {
+
+}
+
+@media screen and (min-width: 768px) {
+
+}
+
+@media screen and (min-width: 980px) {
+
+}
+
+
+/* media queries part for portfolio */
+@media screen and (min-width: 640px) {
+
+}
+
+@media screen and (min-width: 768px) {
+
+}
+
+@media screen and (min-width: 980px) {
+
+}
+
+/* media queries part for contact and network and social media parts */
+@media screen and (min-width: 640px) {
+  #connect {
+    clear: both;
+    display: inline-block;
+    text-align: left;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 15%;
+    width: 100%;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  #connect {
+    clear: both;
+    display: inline-block;
+    text-align: left;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 15%;
+    width: 100%;
+  }
+}
+
+
+@media screen and (min-width: 980px) {
+  #connect {
+    clear: both;
+    float: right;
+    display: inline-block;
+    text-align: center;
+    margin-left: 0;
+    margin-right: 10%;
+    width: 100;
+  }
+}
+
+
+/* media queries part for triple navigation bar */
+@media screen and (min-width: 640px) {
+
+}
+
+@media screen and (min-width: 768px) {
+
+}
+
+@media screen and (min-width: 980px) {
+
+}
+
+/* media queries part for triple navigation bar */
+@media screen and (min-width: 640px) {
+
+}
+
+@media screen and (min-width: 768px) {
+
+}
+
+@media screen and (min-width: 980px) {
+
+}
