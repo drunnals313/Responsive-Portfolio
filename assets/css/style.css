@@ -2,8 +2,6 @@
 #meimage {
   float: left;
   padding-right: 20px;
-  width: 300px;
-  height: auto;
 }
 
 /* main body for each of the nav pages: I cannot get the background image to appear without putting the file within the css referenced folder */
@@ -34,7 +32,6 @@ p:last-child {
 
 /* header elements that go everywhere */
 h1,
-h2,
 h3 {
   font-family: Georgia, Times, "Times New Roman", serif;
   font-weight: 700;
@@ -59,11 +56,19 @@ h3 {
   border-bottom: 2px solid #eeeeee;
 }
 
+/* container around the nav and the about me stuff too */
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  clear: both;
+}
+
 /* this element guy is the top header section outside of the container nav stuff above */
 
 #secondheader {
   position: fixed;
-  z-index: 99;
+  z-index: 81;
   color: #ffffff;
   margin: 0 0 30px;
   overflow: auto;
@@ -72,7 +77,7 @@ h3 {
   width: 100%;
 }
 
-/* this guy is the id associated with my large name part that links back to the index page */
+/* this guy is the id associated with my large name part that links back tot he index page */
 #me {
   float: left;
   width: 275px;
@@ -88,17 +93,38 @@ h3 {
 }
 
 
+nav {
+  margin-top: 25px;
+  float: right;
+}
+
+nav a {
+  display: inline-block;
+  padding-left: 15px;
+  margin-left: 15px;
+  line-height: 18px;
+  color: rgb(153, 153, 153);
+  text-decoration: none;
+  border-left: 1px solid #e9e8e8;
+}
+
+/* hover of the navigation bars and then */
+nav a:hover {
+  color: rgb(22, 22, 221);
+}
+
 
 /* footer and all the parameters */
 footer {
-  padding: 21px 12px;
+  padding: 21px 2px;
   clear: both;
-  font-size: 12px;
-  height: 50px;
+  font-size: 10px;
+  height: 21px;
   text-align: center;
   background: #666666;
   color: #cccccc;
   border-top: 8px solid #4aaaa5;
+  margin-bottom: 13px;
   vertical-align: middle;
 }
 
@@ -110,10 +136,10 @@ footer {
   min-height: calc(100vh - 70px);
 }
 
-#childcontainer {
+.child {
   float: left;
   width: 100%;
-  max-width: 700px;
+  max-width: 960px;
   padding: 30px;
   margin: 0 0 40px;
   background: #ffffff;
@@ -129,7 +155,7 @@ footer {
   margin-right: 25px;
 }
 
-#masks {
+.masks {
   overflow: auto;
   position: relative;
   float: left;
@@ -138,12 +164,12 @@ footer {
 }
 
 /* The :nth-child(n) selector matches every element that is the nth child, regardless of type, of its parent. */
-#masks:nth-child(2n) {
+.masks:nth-child(2n) {
   margin-right: 50px;
 }
 
 
-#masks img {
+.masks img {
   width: 100%;
   height: auto;
   opacity: 0.9;
@@ -151,7 +177,7 @@ footer {
 }
 
 
-#masks h3 {
+.masks h3 {
   position: absolute;
   bottom: 20px;
   width: 100%;
@@ -218,25 +244,3 @@ input[type=submit] {
   border: 0 none;
 }
 
-
-/* connect with me title */
-#cwm {
-  font-family: Georgia, Times, "Times New Roman", serif;
-  font-weight: 700;
-  color: #4aaaa5;
-  font-size: 25px;
-  line-height: 38px;
-}
-
-img {
-  width: 50px;
-  height: 50px;
-}
-
-#about {
-  font-family: Georgia, Times, "Times New Roman", serif;
-  font-weight: 700;
-  color: #4aaaa5;
-  font-size: 32px;
-  line-height: 40px;
-}
