@@ -278,56 +278,121 @@ h3,
 
 /* media queries part for triple navigation bar */
 @media screen and (min-width: 640px) {
-
+  nav {
+    float: left;
+    padding: 5px;
+    position: relative;
+    left: 35%;
+  }
 }
+
 
 @media screen and (min-width: 768px) {
-
+  nav {
+    float: right;
+    padding: 5px;
+    position: relative;
+    left: 0px;
+    right: 2%;
+  }
 }
+
 
 @media screen and (min-width: 980px) {
-
+  nav {
+    float: right;
+    padding: 5px;
+    position: relative;
+    left: -10%;
+    right: 10%;
+  }
 }
+
 
 /* media queries part for banner name */
 @media screen and (min-width: 640px) {
-
+  #me {
+    float: none;
+    font-family: "Georgia", "Times", "Times New Roman", "serif";
+    font-weight: bolder;
+    background-color: #4aaaa5;
+    color: white;
+    margin: 0;
+    padding: 20px;
+    font-size: 2em;
+    text-align: center;
+    cursor: default;
+  }
 }
+
 
 @media screen and (min-width: 768px) {
-
+  #me {
+    float: left;
+    font-family: "Georgia", "Times", "Times New Roman", "serif";
+    font-weight: bolder;
+    background-color: #4aaaa5;
+    color: white;
+    margin-left: 2%;
+    padding: 20px;
+    font-size: 2em;
+    position: relative;
+    top: 0;
+    cursor: default;
+  }
 }
+
 
 @media screen and (min-width: 980px) {
-
+  #me{
+    float: left;
+    font-family: "Georgia", "Times", "Times New Roman", "serif";
+    font-weight: bolder;
+    background-color: #4aaaa5;
+    color: white;
+    margin-left: 10%;
+    padding: 20px;
+    font-size: 2em;
+    position: relative;
+    top: 0;
+    cursor: default;
+  }
 }
 
 
-/* media queries part for index picture of me */
+
+
+
+/* media queries part for portfolio image */
 @media screen and (min-width: 640px) {
-
+  #meimg {
+    width: 100%;
+    height: auto;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    float: none;
+  }
 }
+
 
 @media screen and (min-width: 768px) {
-
+  #meimg {
+    width: 200px;
+    height: 203px;
+    margin-right: 20px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    float: left;
+  }
 }
+
 
 @media screen and (min-width: 980px) {
-
-}
-
-
-/* media queries part for portfolio */
-@media screen and (min-width: 640px) {
-
-}
-
-@media screen and (min-width: 768px) {
-
-}
-
-@media screen and (min-width: 980px) {
-
+  #meimg {
+  float: left;
+  padding-right: 20px;
+  }
 }
 
 /* media queries part for contact and network and social media parts */
@@ -370,28 +435,39 @@ h3,
 }
 
 
-/* media queries part for triple navigation bar */
+/* media queries part for maine page sections under class equal to child */
 @media screen and (min-width: 640px) {
-
+  .child {
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 5%;
+    display: inline-block;
+    align-content: left;
+    width: 550px;
+  }
 }
+
 
 @media screen and (min-width: 768px) {
-
+  .child {
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 5%;
+    display: inline-block;
+    align-content: left;
+    width: 90%;
+  }
 }
+
 
 @media screen and (min-width: 980px) {
-
+  .child {
+    margin-left: 10%;
+    margin-right: 0;
+    margin-bottom: 5%;
+    display: inline-block;
+    width: 640px;
+  }
 }
 
-/* media queries part for triple navigation bar */
-@media screen and (min-width: 640px) {
 
-}
-
-@media screen and (min-width: 768px) {
-
-}
-
-@media screen and (min-width: 980px) {
-
-}
