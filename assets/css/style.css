@@ -318,8 +318,8 @@ h3,
     background-color: #4aaaa5;
     color: white;
     margin: 0;
-    padding: 20px;
-    font-size: 2em;
+    padding: 215px;
+    font-size: 32px;
     text-align: center;
     cursor: default;
   }
@@ -334,8 +334,8 @@ h3,
     background-color: #4aaaa5;
     color: white;
     margin-left: 2%;
-    padding: 20px;
-    font-size: 2em;
+    padding: 15px;
+    font-size: 32px;
     position: relative;
     top: 0;
     cursor: default;
@@ -351,8 +351,8 @@ h3,
     background-color: #4aaaa5;
     color: white;
     margin-left: 10%;
-    padding: 20px;
-    font-size: 2em;
+    padding: 15px;
+    font-size: 32px;
     position: relative;
     top: 0;
     cursor: default;
@@ -395,7 +395,7 @@ h3,
   }
 }
 
-/* media queries part for contact and network and social media parts */
+/* media queries part for network and social media parts */
 @media screen and (min-width: 640px) {
   #connect {
     clear: both;
@@ -435,7 +435,7 @@ h3,
 }
 
 
-/* media queries part for maine page sections under class equal to child */
+/* media queries part for main page sections under class equal to child */
 @media screen and (min-width: 640px) {
   .child {
     margin-left: 2%;
