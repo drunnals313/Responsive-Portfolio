@@ -140,7 +140,7 @@ footer {
 }
 
 .child {
-  float: left;
+  display: inline-block;
   width: 100%;
   max-width: 960px;
   padding: 30px;
@@ -247,22 +247,29 @@ input[type=submit] {
   border: 0 none;
 }
 
-.sidebar {
-  float: right;
+.sideBar {
+  display:inline-block;
   width: 100%;
   max-width: 270px;
   padding: 30px;
   margin-bottom: 20px;
   background: #fff;
   border: 1px solid #ddd;
+  text-align: center;
 }
 
 h3,
-.sidebar h2 {
+.sideBar h2 {
   padding-bottom: 20px;
   margin-bottom: 15px;
   line-height: 22px;
   border-bottom: 2px solid #eee;
+}
+
+.sideBar img {
+  border: 2px solid #ffffff;
+  width: 50px;
+  height: 50px
 }
 
 .social {
@@ -312,13 +319,15 @@ h3,
 /* media queries part for banner name */
 @media screen and (min-width: 640px) {
   #me {
-    float: none;
+    float: left;
+    Clear: both;
+    width: 100%;
     font-family: "Georgia", "Times", "Times New Roman", "serif";
     font-weight: bolder;
     background-color: #4aaaa5;
     color: white;
     margin: 0;
-    padding: 215px;
+    padding: 15px;
     font-size: 32px;
     text-align: center;
     cursor: default;
@@ -397,7 +406,7 @@ h3,
 
 /* media queries part for network and social media parts */
 @media screen and (min-width: 640px) {
-  #connect {
+  .sideBar {
     clear: both;
     display: inline-block;
     text-align: left;
@@ -410,7 +419,7 @@ h3,
 
 
 @media screen and (min-width: 768px) {
-  #connect {
+  .sideBar {
     clear: both;
     display: inline-block;
     text-align: left;
@@ -423,7 +432,7 @@ h3,
 
 
 @media screen and (min-width: 980px) {
-  #connect {
+  .sideBar {
     clear: both;
     float: right;
     display: inline-block;
