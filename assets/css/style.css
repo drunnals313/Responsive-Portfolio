@@ -135,7 +135,7 @@ footer {
 
 /* parent container section */
 #parentcontainer {
-  padding-top: 130px;
+  padding-top: 0px;
   min-height: calc(100vh - 70px);
 }
 
@@ -289,7 +289,7 @@ h3,
     float: left;
     padding: 5px;
     position: relative;
-    left: 35%;
+    left:27%;
   }
 }
 
@@ -424,7 +424,7 @@ h3,
     clear: both;
     display: inline-block;
     text-align: left;
-    margin-left: 5%;
+    margin-left: 2%;
     margin-right: 5%;
     margin-bottom: 15%;
     width: 100%;
@@ -435,10 +435,12 @@ h3,
 @media screen and (min-width: 980px) {
   .sideBar {
     clear: both;
-    float: right;
+    display: inline-block;
+    width: 100%;
     text-align: center;
-    margin-left: 0;
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top:13%;
     width: 30%
   }
 }
@@ -453,6 +455,7 @@ h3,
     display: inline-block;
     align-content: center;
     width: 95%;
+    margin-top: 30%;
   }
 }
 
@@ -465,17 +468,19 @@ h3,
     display: inline-block;
     align-content: left;
     width: 90%;
+    margin-top: 13%;
   }
 }
 
 
 @media screen and (min-width: 980px) {
   .child {
-    margin-left: 10%;
+    margin-left: 5%;
     margin-right: 0;
     margin-bottom: 5%;
+    margin-top:13%;
     float: left;
-    width: 60%;
+    width: 50%;
   }
 }
 
